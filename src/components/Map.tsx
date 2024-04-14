@@ -1,14 +1,12 @@
-import React from 'react'
-import type { Place } from '../api/Place'
+import React from "react";
+import type { Place } from "../api/Place";
 
 interface MapProps {
-    place:Place| null
+  place: Place | null;
 }
 
-const Map = ({place}:MapProps) => {
-  return (
-    <div>Map</div>
-  )
-}
+const Map = ({ place }: MapProps) => {
+  return <div>Map</div>;
+};
 
-export default Map
+export default Map;
