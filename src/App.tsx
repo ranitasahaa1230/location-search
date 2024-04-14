@@ -8,8 +8,8 @@ function App() {
 
   return (
     <div>
-      <LocationSearch onPlaceClick={(p)=>setPlace(p)} />
-      <Map place={place}/>
+      <div><LocationSearch onPlaceClick={(p) => setPlace(p)} /></div>
+      <div><Map place={place} /></div>
     </div>
   );
 }
