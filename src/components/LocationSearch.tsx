@@ -7,7 +7,7 @@ interface LocationSearchProps {
 
 const LocationSearch = ({ onPlaceClick }: LocationSearchProps) => {
   const [term, setTerm] = useState("");
-//   const [places, setPlaces] = useState<Place[]>([]);
+  const [places, setPlaces] = useState<Place[]>([]);
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
